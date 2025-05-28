@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Hello, CI/CD with GitHub Actions!'
+    return 'Hello, World!' # Thay đổi ở đây
 
 if __name__ == '__main__':
     app.run(debug=True)
